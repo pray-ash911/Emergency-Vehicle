@@ -10,7 +10,8 @@ import javax.swing.JFrame;
 import javax.swing.Timer;
 
 /**
- * Prayash Rawal LMU ID: 23056551
+ * Prayash Rawal 
+ * LMU ID: 23056551
  */
 /**
  * The LoadingScreen class shows a progress bar that updates over time and
@@ -111,7 +112,7 @@ public class LoadingScreen extends javax.swing.JFrame {
                 lblLoadingScreen.setText("Loading... " + progress + "%");
 
                 // Check if loading is complete
-                if (progress >= 300) {
+                if (progress >= 100) {
                     timer.stop(); // Stop the timer
                     switchToLoginScreen(); // Switch to LoginScreen
                 }

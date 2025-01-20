@@ -3,7 +3,8 @@ package com.emergencyvehicle.model;
 import com.emergencyvehicle.controller.datastructure.CustomQueue;
 
 /**
- * Prayash Rawal LMU ID: 23056551
+ * Prayash Rawal 
+ * LMU ID: 23056551
  */
 /**
  * Emergency Service class for managing service requests using a custom queue.

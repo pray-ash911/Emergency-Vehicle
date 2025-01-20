@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Prayash Rawal LMU ID: 23056551
+ * Prayash Rawal 
+ * LMU ID: 23056551
  */
 public class MergeSort {
 

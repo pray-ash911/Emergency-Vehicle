@@ -2,7 +2,7 @@ package com.emergencyvehicle.model;
 
 /**
  * * Prayash Rawal 
- * LMU ID: 23056551
+ *   LMU ID: 23056551
  */
 public class EmergencyVehicle {
 

@@ -19,6 +19,11 @@ import javax.swing.table.DefaultTableModel;
 import com.emergencyvehicle.model.EmergencyService;
 import com.emergencyvehicle.controller.datastructure.CustomQueue;
 
+/**
+ *
+ * Prayash Rawal 
+ * LMU ID: 23056551
+ */
 public class HomeScreen extends javax.swing.JFrame {
 
     /**
@@ -55,7 +60,6 @@ public class HomeScreen extends javax.swing.JFrame {
         lblAbout = new javax.swing.JLabel();
         lblAbouta = new javax.swing.JLabel();
         lblAboutUsLogo = new javax.swing.JLabel();
-        lblSmallLogo = new javax.swing.JLabel();
         pnlhome = new javax.swing.JPanel();
         pnlAmbulance = new javax.swing.JPanel();
         lblNumberAmbulance = new javax.swing.JLabel();
@@ -156,10 +160,7 @@ public class HomeScreen extends javax.swing.JFrame {
         pnlAboutUs.add(lblAbouta, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 530, -1));
 
         lblAboutUsLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/emergencyvehicle/resources/rb_68108 (2).png"))); // NOI18N
-        pnlAboutUs.add(lblAboutUsLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 170, 440, -1));
-
-        lblSmallLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/emergencyvehicle/resources/Actualsmallambulance.png"))); // NOI18N
-        pnlAboutUs.add(lblSmallLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 390, -1, 65));
+        pnlAboutUs.add(lblAboutUsLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 130, 440, -1));
 
         tbAdminDashBoard.addTab("AboutUs", pnlAboutUs);
 
@@ -1631,7 +1632,6 @@ public class HomeScreen extends javax.swing.JFrame {
     private javax.swing.JLabel lblSearch;
     private javax.swing.JLabel lblSerialNumber;
     private javax.swing.JLabel lblSlogan;
-    private javax.swing.JLabel lblSmallLogo;
     private javax.swing.JLabel lblSortingPart;
     private javax.swing.JLabel lblVehicleType;
     private javax.swing.JLabel lnlServiceRequest;
